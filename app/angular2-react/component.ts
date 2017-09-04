@@ -1,5 +1,6 @@
 import React from "./react";
-import {Component} from 'angular2/core';
+import ReactDOM from "./react-dom";
+import {Component} from '@angular/core';
 
 @Component({
     selector: 'react-component',
@@ -26,6 +27,6 @@ export class ReactComponent {
         }
     }
     render() {
-		React.render(React.createElement(this.component, this.props), this.drawNode);
+        ReactDOM.render(React.createElement(this.component, this.props), this.drawNode);
     }
 }

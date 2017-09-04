@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {ReactComponent} from './angular2-react/component';
 import MyComponent from './components/MyComponent';
 

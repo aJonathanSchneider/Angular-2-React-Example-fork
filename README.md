@@ -1,3 +1,6 @@
+## branch/fork info:
+this fork is intended to make the repository work in the latest version of Angular and React
+
 ## React Usage in Angular 2 Example
 
 This is using angular2-react without webpack tooling. If you are using a build tool, refer to [angular2-react repo](https://github.com/LookLikeAPro/Angular2-React) and simply use that as a npm package.
